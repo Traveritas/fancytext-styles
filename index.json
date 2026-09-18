@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "name": "FancyText 官方样式包索引",
+  "packs": [
+    {
+      "id": "deco-wings",
+      "packName": "华丽装饰",
+      "description": "成对括号新变体、星花雪叶角饰、音乐爱心箭头、线框角隅、行间分隔（33 样式）",
+      "author": "FancyText",
+      "official": true,
+      "downloadUrl": "https://raw.githubusercontent.com/Traveritas/fancytext-styles/main/packs/deco-wings.json",
+      "mirrorUrl": "https://cdn.jsdelivr.net/gh/Traveritas/fancytext-styles@main/packs/deco-wings.json"
+    },
+    {
+      "id": "deco-starry",
+      "packName": "星月夜",
+      "description": "星月氛围前后缀：弦月框、星屑流、三连星、星点圈、描边重星、星点字距（10 样式）",
+      "author": "FancyText",
+      "official": true,
+      "downloadUrl": "https://raw.githubusercontent.com/Traveritas/fancytext-styles/main/packs/deco-starry.json",
+      "mirrorUrl": "https://cdn.jsdelivr.net/gh/Traveritas/fancytext-styles@main/packs/deco-starry.json"
+    },
+    {
+      "id": "effect-marks",
+      "packName": "叠加特效",
+      "description": "头顶小字母全 13 枚、帽子族与下方族组合符、长斜杠穿字（28 样式）",
+      "author": "FancyText",
+      "official": true,
+      "downloadUrl": "https://raw.githubusercontent.com/Traveritas/fancytext-styles/main/packs/effect-marks.json",
+      "mirrorUrl": "https://cdn.jsdelivr.net/gh/Traveritas/fancytext-styles@main/packs/effect-marks.json"
+    },
+    {
+      "id": "kaomoji-mood",
+      "packName": "颜文字",
+      "description": "六类情绪颜文字后缀 20 款 + 单字情绪映射 2 款（22 样式）",
+      "author": "FancyText",
+      "official": true,
+      "downloadUrl": "https://raw.githubusercontent.com/Traveritas/fancytext-styles/main/packs/kaomoji-mood.json",
+      "mirrorUrl": "https://cdn.jsdelivr.net/gh/Traveritas/fancytext-styles@main/packs/kaomoji-mood.json"
+    },
+    {
+      "id": "martian",
+      "packName": "火星文",
+      "description": "火星文还原解药：反向还原简体 + 剥除装饰加强版（2 样式）",
+      "author": "FancyText",
+      "official": true,
+      "downloadUrl": "https://raw.githubusercontent.com/Traveritas/fancytext-styles/main/packs/martian.json",
+      "mirrorUrl": "https://cdn.jsdelivr.net/gh/Traveritas/fancytext-styles@main/packs/martian.json"
+    }
+  ]
+}

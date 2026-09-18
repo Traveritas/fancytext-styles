@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "name": "星月夜",
+  "author": "FancyText",
+  "description": "官方装饰扩充包：星月氛围前后缀（弦月框 / 星屑流 / 三连星 / 星点圈 / 描边重星）、星点字距、逐字度圈，共 10 个纯数据样式（wrapString / spacing / wrapEach），不引入新算法，不与内置样式重复（✧･ﾟ 闪耀边框、☾✦ 星月装饰等同款已内置）。码点取星月几何符号与日文半角片假名区，均在 Windows 10/11 自带字体覆盖范围内，不出豆腐块。",
+  "styles": [
+    {
+      "id": "starry-moon-pair",
+      "name": "弦月框 ☾☽",
+      "nameEn": "Crescent Moon Frame ☾☽",
+      "category": "decoration",
+      "note": "整串包围（wrapString）：☾ U+263E 下弦月 / ☽ U+263D 上弦月，月牙相扣",
+      "noteEn": "Whole-string wrap (wrapString): ☾ U+263E last-quarter / ☽ U+263D first-quarter moon",
+      "steps": [
+        { "op": "wrapString", "prefix": "☾ ", "suffix": " ☽" }
+      ]
+    },
+    {
+      "id": "starry-stardust",
+      "name": "星屑流 ⋆｡ﾟ",
+      "nameEn": "Stardust Trail ⋆｡ﾟ",
+      "category": "decoration",
+      "note": "整串包围（wrapString）：⋆ U+22C6 星号算符 + ｡ U+FF61 半角句点 + ﾟ U+FF9F 半角浊点，日系 aesthetic 经典三连",
+      "noteEn": "Whole-string wrap (wrapString): ⋆ U+22C6 star operator + ｡ U+FF61 + ﾟ U+FF9F halfwidth marks, classic Japanese aesthetic",
+      "steps": [
+        { "op": "wrapString", "prefix": "⋆｡ﾟ", "suffix": "ﾟ｡⋆" }
+      ]
+    },
+    {
+      "id": "starry-heavy-star",
+      "name": "描边重星 ✮",
+      "nameEn": "Outlined Heavy Star ✮",
+      "category": "decoration",
+      "note": "整串包围（wrapString）：✮ U+272E 重描边星，社交昵称 ins 风常用",
+      "noteEn": "Whole-string wrap (wrapString): ✮ U+272E heavy outlined star, an Instagram-name favorite",
+      "steps": [
+        { "op": "wrapString", "prefix": "✮ ", "suffix": " ✮" }
+      ]
+    },
+    {
+      "id": "starry-triple-star",
+      "name": "三连星 ⋆✧⋆",
+      "nameEn": "Triple Star ⋆✧⋆",
+      "category": "decoration",
+      "note": "整串包围（wrapString）：⋆ U+22C6 / ✧ U+2727 三星编队两侧押阵",
+      "noteEn": "Whole-string wrap (wrapString): ⋆ U+22C6 / ✧ U+2727 triple-star escort on both sides",
+      "steps": [
+        { "op": "wrapString", "prefix": "⋆✧⋆", "suffix": "⋆✧⋆" }
+      ]
+    },
+    {
+      "id": "starry-star-ring",
+      "name": "星点圈 ✦˚",
+      "nameEn": "Star & Degree Ring ✦˚",
+      "category": "decoration",
+      "note": "整串包围（wrapString）：✦ U+2726 星与 ˚ U+02DA 上圈符号互为镜像",
+      "noteEn": "Whole-string wrap (wrapString): ✦ U+2726 star mirrored with ˚ U+02DA ring above",
+      "steps": [
+        { "op": "wrapString", "prefix": "✦˚", "suffix": "˚✦" }
+      ]
+    },
+    {
+      "id": "starry-space-star",
+      "name": "星距字 ⋆",
+      "nameEn": "Star Spacing ⋆",
+      "category": "decoration",
+      "note": "字素间分隔（spacing）：⋆ U+22C6 星号算符逐字插入",
+      "noteEn": "Grapheme separator (spacing): ⋆ U+22C6 star operator between characters",
+      "steps": [
+        { "op": "spacing", "separator": "⋆" }
+      ]
+    },
+    {
+      "id": "starry-space-sparkle",
+      "name": "芒距字 ✧",
+      "nameEn": "Sparkle Spacing ✧",
+      "category": "decoration",
+      "note": "字素间分隔（spacing）：✧ U+2727 白四角星逐字插入",
+      "noteEn": "Grapheme separator (spacing): ✧ U+2727 white four-pointed star between characters",
+      "steps": [
+        { "op": "spacing", "separator": "✧" }
+      ]
+    },
+    {
+      "id": "starry-space-dots",
+      "name": "星点距 ·˚·",
+      "nameEn": "Star-Dot Rhythm ·˚·",
+      "category": "decoration",
+      "note": "字素间分隔（spacing）：· U+00B7 间隔号 + ˚ U+02DA 上圈，星点节奏",
+      "noteEn": "Grapheme separator (spacing): · U+00B7 middle dot + ˚ U+02DA ring, a starry rhythm",
+      "steps": [
+        { "op": "spacing", "separator": "·˚·" }
+      ]
+    },
+    {
+      "id": "starry-space-arc",
+      "name": "弧距字 ⌒",
+      "nameEn": "Arc Spacing ⌒",
+      "category": "decoration",
+      "note": "字素间分隔（spacing）：⌒ U+2312 圆弧符号，字字搭成拱桥",
+      "noteEn": "Grapheme separator (spacing): ⌒ U+2312 arc symbol chaining characters into a bridge",
+      "steps": [
+        { "op": "spacing", "separator": "⌒" }
+      ]
+    },
+    {
+      "id": "starry-each-degree",
+      "name": "头顶度圈 ˚",
+      "nameEn": "Degree Ring Per Char ˚",
+      "category": "decoration",
+      "note": "逐字后缀（wrapEach）：˚ U+02DA 上圈符号缀在每个字后，如头顶小月亮",
+      "noteEn": "Per-grapheme suffix (wrapEach): ˚ U+02DA ring appended after every character, like tiny moons overhead",
+      "steps": [
+        { "op": "wrapEach", "prefix": "", "suffix": "˚" }
+      ]
+    }
+  ]
+}
