@@ -39,15 +39,6 @@
       "mirrorUrl": "https://cdn.jsdelivr.net/gh/Traveritas/fancytext-styles@main/packs/kaomoji-mood.json"
     },
     {
-      "id": "martian",
-      "packName": "火星文",
-      "description": "火星文还原解药：反向还原简体 + 剥除装饰加强版（2 样式）",
-      "author": "FancyText",
-      "official": true,
-      "downloadUrl": "https://raw.githubusercontent.com/Traveritas/fancytext-styles/main/packs/martian.json",
-      "mirrorUrl": "https://cdn.jsdelivr.net/gh/Traveritas/fancytext-styles@main/packs/martian.json"
-    },
-    {
       "id": "rare-transform",
       "packName": "生僻变换",
       "description": "三叠字 38 组（火→焱、龙→龘，附还原）+ 财务大写数字（一→壹，附还原）（4 样式）",
