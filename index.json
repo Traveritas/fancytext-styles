@@ -46,6 +46,15 @@
       "official": true,
       "downloadUrl": "https://raw.githubusercontent.com/Traveritas/fancytext-styles/main/packs/martian.json",
       "mirrorUrl": "https://cdn.jsdelivr.net/gh/Traveritas/fancytext-styles@main/packs/martian.json"
+    },
+    {
+      "id": "rare-transform",
+      "packName": "生僻变换",
+      "description": "三叠字 38 组（火→焱、龙→龘，附还原）+ 财务大写数字（一→壹，附还原）（4 样式）",
+      "author": "FancyText",
+      "official": true,
+      "downloadUrl": "https://raw.githubusercontent.com/Traveritas/fancytext-styles/main/packs/rare-transform.json",
+      "mirrorUrl": "https://cdn.jsdelivr.net/gh/Traveritas/fancytext-styles@main/packs/rare-transform.json"
     }
   ]
 }
