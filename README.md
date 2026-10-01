@@ -18,7 +18,7 @@
 
 ## 提交一个包（PR 流程）
 
-1. 把你的包 JSON（单个文件、纯数据、schemaVersion 1，格式见 [主仓库 docs/sample-pack.json](https://github.com/Traveritas/fancytext/blob/main/docs/sample-pack.json)）放进 `packs/`，文件名用 ASCII slug（如 `my-pack.json`）。
+1. 把你的包 JSON（单个文件、纯数据、schemaVersion 1，格式见 [样式包规范](https://github.com/Traveritas/fancytext/blob/main/docs/样式包规范.md)，可直接改的示例见 [sample-pack.json](https://github.com/Traveritas/fancytext/blob/main/docs/sample-pack.json)）放进 `packs/`，文件名用 ASCII slug（如 `my-pack.json`）。
 2. 在 `index.json` 的 `packs` 数组加一个条目。
 3. 提 PR。要求：包名与包内 `name` 一致；样式 `id` 加包名前缀避免与内置/其他包冲突；不用 `fancytext.` 保留前缀；描述 ≤60 字；不含控制字符与孤立代理对。
 
